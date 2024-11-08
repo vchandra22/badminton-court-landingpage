@@ -1,0 +1,96 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Beranda";
+}
+
+<section class="bg-gray-700 bg-blend-multiply">
+    <div class="mx-auto h-96 md:h-full relative">
+        <img src="~/images/banner-image-player-badminton.webp" width="100" height="100"
+            class="object-cover w-full h-full" alt="Banner Image Badminton Platinum Araya">
+        <div
+            class="absolute top-0 flex flex-col items-center justify-center w-full h-full px-4 py-2 my-auto text-center lg:px-0 bg-blue-800 bg-opacity-40 lg:py-56 dark:bg-neutral-950 dark:bg-opacity-60">
+            <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-48">
+                <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
+                    Platinum Arena Where Champions Play
+                </h1>
+                <p class="mb-8 text-sm font-sans font-normal text-gray-300 lg:text-lg sm:px-16 lg:px-28">
+                    Platinum Badminton Araya, atau Platinum Arena, adalah tempat terbaik di Araya, Malang, untuk
+                    bermain badminton. Menawarkan lapangan berkualitas, kami menjadi tujuan utama bagi para
+                    pecinta badminton di Malang.
+                </p>
+                <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+                    <a href="#"
+                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                        Get started
+                        <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                    <a href="#"
+                        class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
+                        Learn more
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="text-center py-24 bg-gray-100">
+        <div class="px-4 max-w-screen-xl mx-auto">
+            <div>
+                <h2 class="text-4xl font-bold text-start mb-2 text-blue-800">Our Services</h2>
+                <p class="text-sm text-start text-gray-600 mb-8 w-2/3">
+                    At Platinum Badminton Araya, we offer more than just a place to play. Explore our services designed
+                    to
+                    enhance your badminton experience.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div
+                    class="text-start p-6 bg-gray-50 border border-gray-100 rounded-lg shadow-sm hover:shadow-md duration-300 ease-in-out dark:bg-gray-800 dark:border-gray-700">
+                    <i class="fa-solid fa-rocket fa-2x text-blue-800 mb-3 bg-blue-100 p-2 rounded-lg"></i>
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                            Court Booking
+                        </h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
+                        Easily book a court for your game anytime. Flexible hours to suit your schedule.
+                    </p>
+                </div>
+
+                <div
+                    class="text-start p-6 bg-gray-50 border border-gray-100 rounded-lg shadow-sm hover:shadow-md duration-300 ease-in-out dark:bg-gray-800 dark:border-gray-700">
+                    <i class="fa-solid fa-seedling fa-2x text-blue-800 mb-3 bg-blue-100 p-2 rounded-lg"></i>
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                            Coaching Services
+                        </h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
+                        Improve your skills with our expert badminton coaches for all levels.
+                    </p>
+                </div>
+
+                <div
+                    class="text-start p-6 bg-gray-50 border border-gray-100 rounded-lg shadow-sm hover:shadow-md duration-300 ease-in-out dark:bg-gray-800 dark:border-gray-700">
+                    <i class="fa-solid fa-award fa-2x text-blue-800 mb-3 bg-blue-100 p-2 rounded-lg"></i>
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                            Events & Tournaments
+                        </h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">
+                        Join our regular badminton events and tournaments to compete and have fun.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
